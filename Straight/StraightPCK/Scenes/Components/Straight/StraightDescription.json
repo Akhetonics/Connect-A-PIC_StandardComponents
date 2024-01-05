@@ -40,7 +40,7 @@
   ],
   "overlays": [
 	{
-	  "overlayAnimTexturePath": "res://Scenes/Components/GratingCoupler/Grating Coupler Overlay.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/Straight/Component I_Horizontal_Overlay.png",
 	  "rectSide": 2,
 	  "tileOffsetX": 0,
 	  "tileOffsetY": 0
