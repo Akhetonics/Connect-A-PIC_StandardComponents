@@ -10,7 +10,7 @@
   "pins": [
 	{
 	  "number": 0,
-	  "name": "west0",
+	  "name": "west",
 	  "matterType": 1,
 	  "side": 2,
 	  "partX": 0,
