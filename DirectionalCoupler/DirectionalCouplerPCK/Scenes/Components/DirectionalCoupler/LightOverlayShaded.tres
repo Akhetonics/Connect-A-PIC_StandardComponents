@@ -42,10 +42,7 @@ vec4 getAnimationFrameColor(sampler2D animationTexture, vec2 uvCoord, float elap
 	    
     int currentFrameIndex = int(animationOffset) % int(numAnimationColumns);
     float frameShift = float(currentFrameIndex) / numAnimationColumns;
-	if(speed < 0.0)
-	{
-		 frameShift = 1.0 -abs(frameShift- 1.0/numAnimationColumns);
-	}
+	
     vec2 adjustedUV = vec2((uvCoord.x / numAnimationColumns + frameShift), uvCoord.y);
     return texture(animationTexture, adjustedUV);
 }
