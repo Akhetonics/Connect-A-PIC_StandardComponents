@@ -6,6 +6,7 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jbr3n"]
 shader = ExtResource("4_3tfpu")
+shader_parameter/version = 1
 shader_parameter/laserColor = Vector4(1, 0, 0, 1)
 shader_parameter/lightInFlow1 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow1 = null

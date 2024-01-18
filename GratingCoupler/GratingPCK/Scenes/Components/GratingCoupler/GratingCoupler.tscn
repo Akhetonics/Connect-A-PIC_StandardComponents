@@ -8,6 +8,7 @@ load_path = "res://.godot/imported/Grating Coupler Overlay.png-c93f279024ef4e949
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1ai6y"]
 shader = ExtResource("4_7uyjf")
+shader_parameter/version = 1
 shader_parameter/laserColor = Vector4(1, 0, 0, 1)
 shader_parameter/lightInFlow1 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow1 = null

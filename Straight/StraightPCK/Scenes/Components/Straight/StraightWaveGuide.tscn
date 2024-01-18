@@ -6,11 +6,12 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ljv2j"]
 shader = ExtResource("4_4nh6w")
+shader_parameter/version = 1
 shader_parameter/laserColor = Vector4(1, 0, 0, 1)
-shader_parameter/lightInFlow1 = Vector4(1, 0, 0, 0)
-shader_parameter/lightOutFlow1 = null
-shader_parameter/lightInFlow2 = null
-shader_parameter/lightOutFlow2 = null
+shader_parameter/lightInFlow1 = Vector4(0, 0, 0, 1)
+shader_parameter/lightOutFlow1 = Vector4(-1, 2.4, 0, 1)
+shader_parameter/lightInFlow2 = Vector4(0, 0, 0, 0)
+shader_parameter/lightOutFlow2 = Vector4(0, 0, 0, 0)
 shader_parameter/lightInFlow3 = null
 shader_parameter/lightOutFlow3 = null
 shader_parameter/lightInFlow4 = null
