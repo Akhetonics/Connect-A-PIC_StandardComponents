@@ -53,20 +53,20 @@
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"magnitude": 0.5,
-		"wireLengthNM": 603
+		"real": 0.5,
+		"imaginary": 603
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"magnitude": 0.5,
-		"wireLengthNM": 603
+		"real": 0.5,
+		"imaginary": 603
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"magnitude": 0.5,
-		"wireLengthNM": 603
+		"real": 0.5,
+		"imaginary": 603
 		}
 		,
 		
