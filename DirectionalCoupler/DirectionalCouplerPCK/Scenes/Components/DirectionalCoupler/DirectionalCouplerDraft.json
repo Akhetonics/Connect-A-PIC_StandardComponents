@@ -41,58 +41,61 @@
 	  "partY": 1
 	}
   ],
-  "connections": [
-	{
-	  "fromPinNr": 0,
-	  "toPinNr": 1,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	},
-	{
-	  "fromPinNr": 1,
-	  "toPinNr": 0,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	},
-	{
-	  "fromPinNr": 0,
-	  "toPinNr": 3,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	},
-	{
-	  "fromPinNr": 3,
-	  "toPinNr": 0,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	}
-	,
-	
-	{
-	  "fromPinNr": 2,
-	  "toPinNr": 1,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	},
-	{
-	  "fromPinNr": 1,
-	  "toPinNr": 2,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	},
-	{
-	  "fromPinNr": 2,
-	  "toPinNr": 3,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	},
-	{
-	  "fromPinNr": 3,
-	  "toPinNr": 2,
-	  "magnitude": 0.5,
-	  "wireLengthNM": 603
-	}
-  ],
+"SMatrices": {
+	"WaveLength" : 1500,
+	"SMatrix": [
+		{
+		"fromPinNr": 0,
+		"toPinNr": 1,
+		"real": 0.5,
+		"imaginary": 603
+		},
+		{
+		"fromPinNr": 1,
+		"toPinNr": 0,
+		"magnitude": 0.5,
+		"wireLengthNM": 603
+		},
+		{
+		"fromPinNr": 0,
+		"toPinNr": 3,
+		"magnitude": 0.5,
+		"wireLengthNM": 603
+		},
+		{
+		"fromPinNr": 3,
+		"toPinNr": 0,
+		"magnitude": 0.5,
+		"wireLengthNM": 603
+		}
+		,
+		
+		{
+		"fromPinNr": 2,
+		"toPinNr": 1,
+		"magnitude": 0.5,
+		"wireLengthNM": 603
+		},
+		{
+		"fromPinNr": 1,
+		"toPinNr": 2,
+		"magnitude": 0.5,
+		"wireLengthNM": 603
+		},
+		{
+		"fromPinNr": 2,
+		"toPinNr": 3,
+		"magnitude": 0.5,
+		"wireLengthNM": 603
+		},
+		{
+		"fromPinNr": 3,
+		"toPinNr": 2,
+		"magnitude": 0.5,
+		"wireLengthNM": 603
+		}
+ 	 ]
+},
   "overlays": [
 	{
 	  "overlayAnimTexturePath": "res://Scenes/Components/DirectionalCoupler/Directional Coupler LeftUpIn.png",
