@@ -47,25 +47,25 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"real": 0.5,
+		"realOrFormula": "1/PIN1 + PIN0",
 		"imaginary": 603
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"real": 0.5,
+		"realOrFormula": 0.5,
 		"imaginary": 603
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"real": 0.5,
+		"realOrFormula": 0.5,
 		"imaginary": 603
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"real": 0.5,
+		"realOrFormula": 0.5,
 		"imaginary": 603
 		}
 		,
@@ -73,26 +73,26 @@
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"magnitude": 0.5,
-		"wireLengthNM": 603
+		"realOrFormula": 0.5,
+		"imaginary": 603
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"magnitude": 0.5,
-		"wireLengthNM": 603
+		"realOrFormula": 0.5,
+		"imaginary": 603
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"magnitude": 0.5,
-		"wireLengthNM": 603
+		"realOrFormula": 0.5,
+		"imaginary": 603
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"magnitude": 0.5,
-		"wireLengthNM": 603
+		"realOrFormula": 0.5,
+		"imaginary": 603
 		}
  	 ]
 },
