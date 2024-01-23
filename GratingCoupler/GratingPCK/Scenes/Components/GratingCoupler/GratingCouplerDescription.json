@@ -17,7 +17,23 @@
 	  "partY": 0
 	}
   ],
-  "connections": [
+  "sMatrices": [
+    {
+      "waveLength" : 1550,
+      "connections": [
+      ]
+    },
+    {
+      "waveLength" : 1310,
+      "connections": [
+        
+      ]
+    },
+    {
+      "waveLength" : 980,
+      "connections": [
+      ]
+    }
   ],
   "overlays": [
 	{

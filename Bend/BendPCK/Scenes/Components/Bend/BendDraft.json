@@ -25,20 +25,59 @@
 	  "partY": 0
 	}
   ],
-  "connections": [
+  "sMatrices": [
 	{
-	  "fromPinNr": 0,
-	  "toPinNr": 1,
-	  "magnitude": 1.0,
-	  "wireLengthNM": 196.3495
+		"waveLength" : 1550,
+		"connections": [
+			{
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"realOrFormula": "1.0",
+			"imaginary": 0.79571224310347
+			},
+			{
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"realOrFormula": "1.0",
+			"imaginary": 0.79571224310347
+			}
+		]
 	},
 	{
-	  "fromPinNr": 1,
-	  "toPinNr": 0,
-	  "magnitude": 1.0,
-	  "wireLengthNM": 196.3495
+		"waveLength" : 1310,
+		"connections": [
+			{
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"realOrFormula": "1.0",
+			"imaginary": -0.99252990602840385
+			},
+			{
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"realOrFormula": "1.0",
+			"imaginary": -0.99252990602840385
+			}
+		]
+	},
+	{
+		"waveLength" : 980,
+		"connections": [
+			{
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"realOrFormula": "1.0",
+			"imaginary": -0.97199449278750349
+			},
+			{
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"realOrFormula": "1.0",
+			"imaginary": -0.97199449278750349
+			}
+		]
 	}
-  ],
+],
   "overlays": [
 	{
 	  "overlayAnimTexturePath": "res://Scenes/Components/Bend/Component L_Overlay.png",

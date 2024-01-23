@@ -7,18 +7,7 @@ using System.Numerics;
 namespace DirectionalCoupler.Scenes.Components.DirectionalCoupler
 {
 
-    public interface IPin
-    {
-        int number { get; }
-        int side { get; }
-        int partX { get; }
-        int partY { get; }
-    }
-    public interface ISMatrixGenerator
-    {
-        public (Matrix<Complex>, List<IPin>) CalculateSMatrix();
-    }
-    public partial class DirectionalCouplerScene : TextureRect, ISMatrixGenerator
+    public partial class DirectionalCouplerScene : TextureRect
     {
         [Export] private HSlider Slider;
         [Export] public RichTextLabel Label;
@@ -41,12 +30,6 @@ namespace DirectionalCoupler.Scenes.Components.DirectionalCoupler
             EmitSignal("SliderChanged", value);
         }
 
-        (Matrix<Complex>, List<IPin>) ISMatrixGenerator.CalculateSMatrix()
-        {
-            var matrix = Matrix<Complex>.Build.Dense(4,4);
-
-            return matrix;
-        }
     }
 
 }
