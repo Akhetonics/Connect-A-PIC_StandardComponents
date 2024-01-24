@@ -31,13 +31,13 @@
 			{
 			  "fromPinNr": 0,
 			  "toPinNr": 1,
-			  "realOrFormula": "1.0",
+			  "realOrFormula": "0.874346616144562606",
 			  "imaginary" : -0.48530196253111618
 			},
 			{
 			  "fromPinNr": 1,
 			  "toPinNr": 0,
-			  "realOrFormula": "1.0",
+			  "realOrFormula": "0.874346616144562606",
 			  "imaginary" : -0.48530196253111618
 			}
 		  ]
@@ -48,13 +48,13 @@
 			{
 			"fromPinNr": 0,
 			"toPinNr": 1,
-			"realOrFormula": "1.0",
+			"realOrFormula": "0.4292480241146111",
 			"imaginary": -0.90318665501307216
 			},
 			{
 			"fromPinNr": 1,
 			"toPinNr": 0,
-			"realOrFormula": "1.0",
+			"realOrFormula": "0.4292480241146111",
 			"imaginary": -0.90318665501307216
 			}
 		]
@@ -65,13 +65,13 @@
 			{
 			"fromPinNr": 0,
 			"toPinNr": 1,
-			"realOrFormula": "1.0",
+			"realOrFormula": "0.2845275866312896",
 			"imaginary": 0.95866785303658431
 			},
 			{
 			"fromPinNr": 1,
 			"toPinNr": 0,
-			"realOrFormula": "1.0",
+			"realOrFormula": "0.2845275866312896",
 			"imaginary": 0.95866785303658431
 			}
 		]
