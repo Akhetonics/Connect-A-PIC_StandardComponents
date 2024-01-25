@@ -48,51 +48,51 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"realOrFormula": "0.24558189942809616",
-		"imaginary": 0.70710678118654757
+		"magnitude": 0.5,
+		"phase": 1.2161003820350373
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"realOrFormula": "0.24558189942809616",
-		"imaginary": 0.70710678118654757
+		"magnitude": 0.5,
+		"phase": 1.2161003820350373
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"realOrFormula": "0.30738161873749026029",
-		"imaginary": 0.39435585511352583
+		"magnitude": 0.5,
+		"phase": -1.925492271554756
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"realOrFormula": "0.30738161873749026029",
-		"imaginary": -0.66309089171341251
+		"magnitude": 0.5,
+		"phase": -1.925492271554756
 		}
 		,
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"realOrFormula": "0.30738161873749026029",
-		"imaginary": 0.39435585511352583
+		"magnitude": 0.5,
+		"phase": -1.925492271554756
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"realOrFormula": "0.30738161873749026029",
-		"imaginary": 0.39435585511352583
+		"magnitude": 0.5,
+		"phase": -1.925492271554756
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"realOrFormula": "0.30738161873749026029",
-		"imaginary": 0.39435585511352583
+		"magnitude": 0.5,
+		"phase": 1.2161003820350373
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"realOrFormula": "0.30738161873749026029",
-		"imaginary": 0.39435585511352583
+		"magnitude": 0.5,
+		"phase": 1.2161003820350373
 		}
  	 ]
 	},
@@ -102,51 +102,51 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": 0.1918529864783807
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": 0.1918529864783807
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": -2.9497396671114124
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": -2.9497396671114124
 		}
 		,
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": -2.9497396671114124
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": -2.9497396671114124
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": 0.1918529864783807
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"realOrFormula": "0.400691",
-		"imaginary": -0.64074410910480706
+		"magnitude": 0.5,
+		"phase": 0.1918529864783807
 		}
  	 ]
 	},
@@ -156,51 +156,51 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": 3.0774785178021489
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": 3.0774785178021489
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": -0.064114135787644369
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": -0.064114135787644369
 		}
 		,
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": -0.064114135787644369
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": -0.064114135787644369
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": 3.0774785178021489
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"realOrFormula": "0.4125530905022935",
-		"imaginary": -0.64822839530754406
+		"magnitude": 0.5,
+		"phase": 3.0774785178021489
 		}
  	 ]
 	}
