@@ -94,43 +94,43 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)"
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)"
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)"
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)"
 		}
 		,
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)"
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -2.9497396671114124)"
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)"
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 0.1918529864783807)"
 		}
  	 ]
 	},
@@ -140,43 +140,43 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0 ,SLIDER0), 3.0774785178021489)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0 ,SLIDER0), 3.0774785178021489)"
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0 ,SLIDER0), 3.0774785178021489)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0 ,SLIDER0), 3.0774785178021489)"
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)"
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)"
 		}
 		,
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)"
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)",
+		"nonLinearFormula" : "ToComplexFromPolar( SLIDER0, -0.064114135787644369)"
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 3.0774785178021489)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 3.0774785178021489)"
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 3.0774785178021489)",
+		"nonLinearFormula" : "ToComplexFromPolar( Sub(1.0, SLIDER0), 3.0774785178021489)"
 		}
  	 ]
 	}
