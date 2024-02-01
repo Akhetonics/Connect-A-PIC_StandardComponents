@@ -34,19 +34,26 @@ offset_bottom = 60.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
 tooltip_text = "Phase : _"
-texture = ExtResource("1_h05ny")
 flip_h = true
 
-[node name="Background" type="Sprite2D" parent="."]
+[node name="RotationArea" type="Node2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(30, 30)
+
+[node name="Background" type="Sprite2D" parent="RotationArea"]
+position = Vector2(-30, -30)
 scale = Vector2(2, 2)
 texture = ExtResource("1_h05ny")
 centered = false
 flip_h = true
 
-[node name="Overlay" type="Sprite2D" parent="."]
+[node name="Overlay" type="Sprite2D" parent="RotationArea"]
 unique_name_in_owner = true
 material = SubResource("ShaderMaterial_jbr3n")
+position = Vector2(-30, -30)
 scale = Vector2(2, 2)
 texture = ExtResource("1_h05ny")
 centered = false
 flip_v = true
+
+[node name="UI" type="Node2D" parent="."]

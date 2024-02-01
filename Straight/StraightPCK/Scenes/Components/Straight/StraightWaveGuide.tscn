@@ -31,10 +31,21 @@ shader_parameter/animation1 = ExtResource("3_0fxxl")
 custom_minimum_size = Vector2(60, 60)
 offset_right = 60.0
 offset_bottom = 60.0
-texture = ExtResource("1_3hlav")
 
-[node name="Overlay" type="Sprite2D" parent="."]
-material = SubResource("ShaderMaterial_ljv2j")
+[node name="RotationArea" type="Node2D" parent="."]
+position = Vector2(30, 30)
+
+[node name="Background" type="Sprite2D" parent="RotationArea"]
+position = Vector2(-30, -30)
 scale = Vector2(2, 2)
 texture = ExtResource("1_3hlav")
 centered = false
+
+[node name="Overlay" type="Sprite2D" parent="RotationArea"]
+material = SubResource("ShaderMaterial_ljv2j")
+position = Vector2(-30, -30)
+scale = Vector2(2, 2)
+texture = ExtResource("1_3hlav")
+centered = false
+
+[node name="UI" type="Node2D" parent="."]

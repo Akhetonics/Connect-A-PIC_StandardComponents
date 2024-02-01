@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bm3jaqj5in510"]
 
 [ext_resource type="Texture2D" uid="uid://b0uafxekt6a6m" path="res://Scenes/Components/GratingCoupler/Grating Coupler.png" id="1_r641d"]
-[ext_resource type="Shader" uid="uid://cjwweer5f5rfh" path="res://Scenes/Components/GratingCoupler/LightOverlayShaded.tres" id="4_7uyjf"]
+[ext_resource type="Shader" uid="uid://cpmmlhnyw62lv" path="res://Scenes/Components/GratingCoupler/LightOverlayShaded.tres" id="4_7uyjf"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_k3gdy"]
 load_path = "res://.godot/imported/Grating Coupler Overlay.png-c93f279024ef4e9499b100c6ae537c74.ctex"
@@ -34,13 +34,20 @@ offset_right = 60.0
 offset_bottom = 60.0
 stretch_mode = 2
 
-[node name="Background" type="Sprite2D" parent="."]
+[node name="RotationArea" type="Node2D" parent="."]
+position = Vector2(30, 30)
+
+[node name="Background" type="Sprite2D" parent="RotationArea"]
+position = Vector2(-30, -30)
 scale = Vector2(2, 2)
 texture = ExtResource("1_r641d")
 centered = false
 
-[node name="Overlay" type="Sprite2D" parent="."]
+[node name="Overlay" type="Sprite2D" parent="RotationArea"]
 material = SubResource("ShaderMaterial_1ai6y")
+position = Vector2(-30, -30)
 scale = Vector2(2, 2)
 texture = ExtResource("1_r641d")
 centered = false
+
+[node name="UI" type="Node2D" parent="."]
