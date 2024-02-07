@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=3 uid="uid://bm3jaqj5in510"]
+
+[ext_resource type="Texture2D" uid="uid://d0qmakancnmy3" path="res://Scenes/Components/Termination/Background.png" id="1_whk4b"]
+[ext_resource type="Shader" uid="uid://cpmmlhnyw62lv" path="res://Scenes/Components/Termination/LightOverlayShaded.tres" id="2_f55cu"]
+[ext_resource type="Texture2D" uid="uid://dw5fh43pqyep" path="res://Scenes/Components/Termination/Overlay.png" id="3_07ite"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1ai6y"]
+shader = ExtResource("2_f55cu")
+shader_parameter/version = 1
+shader_parameter/laserColor = Vector4(1, 0, 0, 1)
+shader_parameter/lightInFlow1 = Vector4(1, 0, 0, 0)
+shader_parameter/lightOutFlow1 = null
+shader_parameter/lightInFlow2 = null
+shader_parameter/lightOutFlow2 = null
+shader_parameter/lightInFlow3 = null
+shader_parameter/lightOutFlow3 = null
+shader_parameter/lightInFlow4 = null
+shader_parameter/lightOutFlow4 = null
+shader_parameter/lightInFlow5 = null
+shader_parameter/lightOutFlow5 = null
+shader_parameter/lightInFlow6 = null
+shader_parameter/lightOutFlow6 = null
+shader_parameter/lightInFlow7 = null
+shader_parameter/lightOutFlow7 = null
+shader_parameter/lightInFlow8 = null
+shader_parameter/lightOutFlow8 = null
+shader_parameter/numAnimationColumns = 4.0
+shader_parameter/animation1 = ExtResource("3_07ite")
+
+[node name="TextureRect" type="TextureRect"]
+offset_right = 60.0
+offset_bottom = 60.0
+stretch_mode = 2
+
+[node name="RotationArea" type="Node2D" parent="."]
+position = Vector2(30, 30)
+
+[node name="Background" type="Sprite2D" parent="RotationArea"]
+position = Vector2(-30, -30)
+scale = Vector2(2, 2)
+texture = ExtResource("1_whk4b")
+centered = false
+
+[node name="Overlay" type="Sprite2D" parent="RotationArea"]
+unique_name_in_owner = true
+material = SubResource("ShaderMaterial_1ai6y")
+position = Vector2(-30, -30)
+scale = Vector2(2, 2)
+texture = ExtResource("1_whk4b")
+centered = false
+
+[node name="UI" type="Node2D" parent="."]
+unique_name_in_owner = true

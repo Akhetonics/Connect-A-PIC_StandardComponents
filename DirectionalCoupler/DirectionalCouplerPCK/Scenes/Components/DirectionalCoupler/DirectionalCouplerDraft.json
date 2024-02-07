@@ -1,10 +1,9 @@
 {
   "fileFormatVersion": 1,
   "identifier": "DirectionalCoupler",
-  "nazcaFunctionParameters": "deltaLength = 50",
+  "nazcaFunctionParameters": "deltaLength = SLIDER0",
   "nazcaFunctionName": "placeCell_DirectionalCoupler",
   "sceneResPath": "res://Scenes/Components/DirectionalCoupler/DirectionalCouplerScene.tscn",
-  "deltaLength": 50,
   "widthInTiles": 2,
   "heightInTiles": 2,
   "pins": [

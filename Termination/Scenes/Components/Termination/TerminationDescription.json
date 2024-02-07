@@ -1,0 +1,46 @@
+{
+  "fileFormatVersion": 1,
+  "identifier": "Termination",
+  "nazcaFunctionParameters": "",
+  "nazcaFunctionName": "placeCell_Termination",
+  "sceneResPath": "res://Scenes/Components/Termination/Termination.tscn",
+  "deltaLength": 0,
+  "widthInTiles": 1,
+  "heightInTiles": 1,
+  "pins": [
+	{
+	  "number": 0,
+	  "name": "west",
+	  "matterType": 1,
+	  "side": 2,
+	  "partX": 0,
+	  "partY": 0
+	}
+  ],
+  "sMatrices": [
+	{
+	  "waveLength" : 1550,
+	  "connections": [
+	  ]
+	},
+	{
+	  "waveLength" : 1310,
+	  "connections": [
+		
+	  ]
+	},
+	{
+	  "waveLength" : 980,
+	  "connections": [
+	  ]
+	}
+  ],
+  "overlays": [
+	{
+	  "overlayAnimTexturePath": "res://Scenes/Components/Termination/Overlay.png",
+	  "rectSide": 2,
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 0
+	}
+  ]
+}
