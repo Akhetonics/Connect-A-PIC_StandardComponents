@@ -1,0 +1,146 @@
+{
+  "fileFormatVersion": 1,
+  "identifier": "Crossing",
+  "nazcaFunctionParameters": "",
+  "nazcaFunctionName": "placeCell_Crossing",
+  "sceneResPath": "res://Scenes/Components/Crossing/Crossing.tscn",
+  "deltaLength": 0,
+  "widthInTiles": 1,
+  "heightInTiles": 1,
+  "pins": [
+	{
+	  "number": 0,
+	  "name": "west",
+	  "matterType": 1,
+	  "side": 2,
+	  "partX": 0,
+	  "partY": 0
+	},{
+	  "number": 1,
+	  "name": "east",
+	  "matterType": 1,
+	  "side": 0,
+	  "partX": 0,
+	  "partY": 0
+	},
+	{
+		"number": 2,
+		"name" : "north",
+		"matterType" : 1,
+		"side" : 3,
+		"partX": 0,
+		"partY": 0
+	},
+	{
+		"number": 3,
+		"name" : "south",
+		"matterType" : 1,
+		"side" : 1,
+		"partX": 0,
+		"partY": 0
+	}
+  ],
+  "sMatrices": [
+	{
+		"waveLength" : 1550,
+		"connections": [
+			{
+			  "fromPinNr": 0,
+			  "toPinNr": 1,
+			  "real": 0.874346616144562606,
+			  "imaginary" : -0.48530196253111618
+			},
+			{
+			  "fromPinNr": 1,
+			  "toPinNr": 0,
+			  "real": 0.874346616144562606,
+			  "imaginary" : -0.48530196253111618
+			},
+			{
+			  "fromPinNr": 2,
+			  "toPinNr": 3,
+			  "real": 0.874346616144562606,
+			  "imaginary" : -0.48530196253111618
+			},
+			{
+			  "fromPinNr": 3,
+			  "toPinNr": 2,
+			  "real": 0.874346616144562606,
+			  "imaginary" : -0.48530196253111618
+			}
+		  ]
+	},
+	{
+		"waveLength" : 1310,
+		"connections": [
+			{
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"real": 0.4292480241146111,
+			"imaginary": -0.90318665501307216
+			},
+			{
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"real": 0.4292480241146111,
+			"imaginary": -0.90318665501307216
+			},
+			{
+			"fromPinNr": 2,
+			"toPinNr": 3,
+			"real": 0.4292480241146111,
+			"imaginary": -0.90318665501307216
+			},
+			{
+			"fromPinNr": 3,
+			"toPinNr": 2,
+			"real": 0.4292480241146111,
+			"imaginary": -0.90318665501307216
+			}
+		]
+	},
+	{
+		"waveLength" : 980,
+		"connections": [
+			{
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"real": 0.2845275866312896,
+			"imaginary": 0.95866785303658431
+			},
+			{
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"real": 0.2845275866312896,
+			"imaginary": 0.95866785303658431
+			},
+			{
+			"fromPinNr": 2,
+			"toPinNr": 3,
+			"real": 0.2845275866312896,
+			"imaginary": 0.95866785303658431
+			},
+			{
+			"fromPinNr": 3,
+			"toPinNr": 2,
+			"real": 0.2845275866312896,
+			"imaginary": 0.95866785303658431
+			}
+		]
+	}
+],
+  "overlays": [
+	{
+	  "overlayAnimTexturePath": "res://Scenes/Components/Crossing/OverlayHorizontal.png",
+	  "rectSide": 2,
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 0
+	},
+	{
+	  "overlayAnimTexturePath": "res://Scenes/Components/Crossing/OverlayVertical.png",
+	  "rectSide": 3,
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 0
+	}
+  ]
+}
