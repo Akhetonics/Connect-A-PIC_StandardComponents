@@ -1,0 +1,94 @@
+{
+  "fileFormatVersion": 1,
+  "identifier": "DelayTunable",
+  "nazcaFunctionParameters": "deltaLength = SLIDER0",
+  "nazcaFunctionName": "placeCell_Delay",
+  "sceneResPath": "res://Scenes/Components/DelayTunable/DelayTunable.tscn",
+  "widthInTiles": 2,
+  "heightInTiles": 2,
+  "pins": [
+	{
+	  "number": 0,
+	  "name": "west",
+	  "matterType": 1,
+	  "side": 2,
+	  "partX": 0,
+	  "partY": 1
+	},
+	{
+	  "number": 1,
+	  "name": "east",
+	  "matterType": 1,
+	  "side": 0,
+	  "partX": 1,
+	  "partY": 1
+	}
+  ],
+"sMatrices": [
+	{
+	"waveLength" : 1550,
+	"connections": [
+		{
+		"fromPinNr": 0,
+		"toPinNr": 1,
+		"nonLinearFormula" : "PhaseShiftFromWGLength(Slider0 * 2000 + 125000 * 2 * 3.1415926535897931, 1550)"
+		},
+		{
+		"fromPinNr": 1,
+		"toPinNr": 0,
+		"nonLinearFormula" : "PhaseShiftFromWGLength(Slider0 * 2000 + 125000 * 2 * 3.1415926535897931, 1550)"
+		}
+ 	 ]
+	},
+	{
+	"waveLength" : 1310,
+	"connections": [
+		{
+		"fromPinNr": 0,
+		"toPinNr": 1,
+		"nonLinearFormula" : "PhaseShiftFromWGLength(Slider0 * 2000 + 125000 * 2 * 3.1415926535897931, 1310)"
+		},
+		{
+		"fromPinNr": 1,
+		"toPinNr": 0,
+		"nonLinearFormula" : "PhaseShiftFromWGLength(Slider0 * 2000 + 125000 * 2 * 3.1415926535897931, 1310)"
+		}
+ 	 ]
+	},
+	{
+	"waveLength" : 980,
+	"connections": [
+		{
+		"fromPinNr": 0,
+		"toPinNr": 1,
+		"nonLinearFormula" : "PhaseShiftFromWGLength(Slider0 * 2000 + 125000 * 2 * 3.1415926535897931, 980)"
+		},
+		{
+		"fromPinNr": 1,
+		"toPinNr": 0,
+		"nonLinearFormula" : "PhaseShiftFromWGLength(Slider0 * 2000 + 125000 * 2 * 3.1415926535897931, 980)"
+		}
+ 	 ]
+	}
+],
+"overlays": [
+	{
+	  "overlayAnimTexturePath": "res://Scenes/Components/DelayTunable/Overlay.png",
+	  "rectSide": 2,
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 1
+	}
+  ],
+	"sliders":
+	[
+		{
+			"sliderNumber" : 0,
+			"godotSliderName" : "DeltaLengthSlider",
+			"godotSliderLabelName" : "SliderLabel",
+			"minVal" : 0.0,
+			"maxVal" : 1,
+			"steps" : 100,
+			"type" : 0
+		}
+	]
+}
