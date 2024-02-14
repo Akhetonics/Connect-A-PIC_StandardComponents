@@ -1,88 +1,89 @@
 {
-  "fileFormatVersion": 1,
-  "identifier": "Straight",
-  "nazcaFunctionParameters": "",
-  "nazcaFunctionName": "placeCell_StraightWG",
-  "sceneResPath": "res://Scenes/Components/Straight/StraightWaveGuide.tscn",
-  "deltaLength": 0,
-  "widthInTiles": 1,
-  "heightInTiles": 1,
-  "pins": [
-	{
-	  "number": 0,
-	  "name": "west",
-	  "matterType": 1,
-	  "side": 2,
-	  "partX": 0,
-	  "partY": 0
-	},{
-	  "number": 1,
-	  "name": "east",
-	  "matterType": 1,
-	  "side": 0,
-	  "partX": 0,
-	  "partY": 0
-	}
-  ],
-  "sMatrices": [
-	{
-		"waveLength" : 1550,
-		"connections": [
-			{
-			  "fromPinNr": 0,
-			  "toPinNr": 1,
-			  "real": 0.874346616144562606,
-			  "imaginary" : -0.48530196253111618
-			},
-			{
-			  "fromPinNr": 1,
-			  "toPinNr": 0,
-			  "real": 0.874346616144562606,
-			  "imaginary" : -0.48530196253111618
-			}
-		  ]
-	},
-	{
-		"waveLength" : 1310,
-		"connections": [
-			{
-			"fromPinNr": 0,
-			"toPinNr": 1,
-			"real": 0.4292480241146111,
-			"imaginary": -0.90318665501307216
-			},
-			{
-			"fromPinNr": 1,
-			"toPinNr": 0,
-			"real": 0.4292480241146111,
-			"imaginary": -0.90318665501307216
-			}
-		]
-	},
-	{
-		"waveLength" : 980,
-		"connections": [
-			{
-			"fromPinNr": 0,
-			"toPinNr": 1,
-			"real": 0.2845275866312896,
-			"imaginary": 0.95866785303658431
-			},
-			{
-			"fromPinNr": 1,
-			"toPinNr": 0,
-			"real": 0.2845275866312896,
-			"imaginary": 0.95866785303658431
-			}
-		]
-	}
-],
-  "overlays": [
-	{
-	  "overlayAnimTexturePath": "res://Scenes/Components/Straight/Component I_Horizontal_Overlay.png",
-	  "rectSide": 2,
-	  "tileOffsetX": 0,
-	  "tileOffsetY": 0
-	}
-  ]
+	"fileFormatVersion": 1,
+	"identifier": "Straight",
+	"nazcaFunctionParameters": "",
+	"nazcaFunctionName": "placeCell_StraightWG",
+	"sceneResPath": "res://Scenes/Components/Straight/StraightWaveGuide.tscn",
+	"deltaLength": 0,
+	"widthInTiles": 1,
+	"heightInTiles": 1,
+	"pins": [
+		{
+			"number": 0,
+			"name": "west",
+			"matterType": 1,
+			"side": 2,
+			"partX": 0,
+			"partY": 0
+		},
+		{
+			"number": 1,
+			"name": "east",
+			"matterType": 1,
+			"side": 0,
+			"partX": 0,
+			"partY": 0
+		}
+	],
+	"sMatrices": [
+		{
+			"waveLength": 1550,
+			"connections": [
+				{
+					"fromPinNr": 0,
+					"toPinNr": 1,
+					"magnitude": 0.9999802,
+					"phase": 1.54
+				},
+				{
+					"fromPinNr": 1,
+					"toPinNr": 0,
+					"magnitude": 0.9999802,
+					"phase": 1.54
+				}
+			]
+		},
+		{
+			"waveLength": 1310,
+			"connections": [
+				{
+					"fromPinNr": 0,
+					"toPinNr": 1,
+					"magnitude": 0.9999802,
+					"phase": 0.3
+				},
+				{
+					"fromPinNr": 1,
+					"toPinNr": 0,
+					"magnitude": 0.9999802,
+					"phase": 0.3
+				}
+			]
+		},
+		{
+			"waveLength": 980,
+			"connections": [
+				{
+					"fromPinNr": 0,
+					"toPinNr": 1,
+					"magnitude": 0.9999802,
+					"phase": 1.8
+				},
+				{
+					"fromPinNr": 1,
+					"toPinNr": 0,
+					"magnitude": 0.9999802,
+					"phase": 1.8
+				}
+			]
+		}
+	],
+	"overlays": [
+		{
+			"overlayAnimTexturePath": "res://Scenes/Components/Straight/Component I_Horizontal_Overlay.png",
+			"rectSide": 2,
+			"tileOffsetX": 0,
+			"tileOffsetY": 0
+		}
+	]
 }
