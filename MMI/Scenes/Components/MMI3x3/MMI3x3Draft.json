@@ -1,10 +1,10 @@
 {
   "fileFormatVersion": 1,
-  "identifier": "3x3MMI",
+  "identifier": "MMI3x3",
   "nazcaFunctionParameters": "",
   "nazcaFunctionName": "placeCell_MMI3x3",
   "sceneResPath": "res://Scenes/Components/MMI3x3/MMI3x3.tscn",
-  "widthInTiles": 2,
+  "widthInTiles": 3,
   "heightInTiles": 3,
   "pins": [
 	{
@@ -20,7 +20,7 @@
 	  "name": "east0",
 	  "matterType": 1,
 	  "side": 0,
-	  "partX": 1,
+	  "partX": 2,
 	  "partY": 0
 	},
 	{
@@ -36,7 +36,7 @@
 	  "name": "east1",
 	  "matterType": 1,
 	  "side": 0,
-	  "partX": 1,
+	  "partX": 2,
 	  "partY": 1
 	},
 	{
@@ -51,8 +51,8 @@
 	  "number": 5,
 	  "name": "east2",
 	  "matterType": 1,
-	  "side": 2,
-	  "partX": 1,
+	  "side": 0,
+	  "partX": 2,
 	  "partY": 2
 	}
   ],
@@ -63,112 +63,112 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		
 		
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 0.124
 		}
  	 ]
 	},
@@ -178,55 +178,55 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		
@@ -234,55 +234,55 @@
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
+		"magnitude" : 0.577350269189625,
 		"phase" : 2.3
 		}
  	 ]
@@ -293,138 +293,155 @@
 		{
 		"fromPinNr": 0,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 1,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 3,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 5,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		
 		
 		{
 		"fromPinNr": 1,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 0,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 2,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 4,
-		"magnitude" : 0.333333333333333,
-		"phase" : 2.3
+		"magnitude" : 0.577350269189625,
+		"phase" : 1.8
 		}
  	 ]
 	}
 ],
   "overlays": [
 	{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay.png",
 	  "rectSide": 2,
-	  "flowDirection" : "in",
+	  "flowDirection" : "In",
 	  "tileOffsetX": 0,
 	  "tileOffsetY": 0
 	},{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Directional Coupler LeftDown.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay.png",
 	  "rectSide": 2,
+	  "flowDirection" : "In",
 	  "tileOffsetX": 0,
 	  "tileOffsetY": 1
 	},{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Directional Coupler RightUp.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay.png",
+	  "rectSide": 2,
+	  "flowDirection" : "In",
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 2
+	},
+	
+	{
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay_Turned.png",
 	  "rectSide": 0,
-	  "tileOffsetX": 1,
+	  "flowDirection" : "In",
+	  "tileOffsetX": 2,
 	  "tileOffsetY": 0
 	},{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Directional Coupler RightDown.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay_Turned.png",
 	  "rectSide": 0,
-	  "tileOffsetX": 1,
+	  "flowDirection" : "In",
+	  "tileOffsetX": 2,
 	  "tileOffsetY": 1
+	},{
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay_Turned.png",
+	  "rectSide": 0,
+	  "flowDirection" : "In",
+	  "tileOffsetX": 2,
+	  "tileOffsetY": 2
 	}
   ]
 }

@@ -1,6 +1,12 @@
-[gd_scene load_steps=8 format=3 uid="uid://b4ltp4nnviu3"]
+[gd_scene load_steps=10 format=3 uid="uid://b4ltp4nnviu3"]
 
 [ext_resource type="Texture2D" uid="uid://bg45l0703p3we" path="res://Scenes/Components/MMI3x3/MMI3x3.png" id="1_lvii3"]
+[ext_resource type="Texture2D" uid="uid://rcmsbv3cjero" path="res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay.png" id="2_nvvod"]
+[ext_resource type="Texture2D" uid="uid://dh23ldwyud587" path="res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay.png" id="3_kf717"]
+[ext_resource type="Texture2D" uid="uid://cgrrfqxmrvw1f" path="res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay.png" id="4_dg366"]
+[ext_resource type="Texture2D" uid="uid://cjuj4xyvfxtlt" path="res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay_Turned.png" id="5_4ox23"]
+[ext_resource type="Texture2D" uid="uid://bbqk0w6t68pcr" path="res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay_Turned.png" id="6_rtarb"]
+[ext_resource type="Texture2D" uid="uid://cy2odaby7j33w" path="res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay_Turned.png" id="7_5gcww"]
 
 [sub_resource type="Shader" id="Shader_rx45y"]
 code = "// Laser Farbe
@@ -102,18 +108,6 @@ void fragment(){
   COLOR = laserColor * 2.5 * abs(intensity);
 }"
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sqyxt"]
-load_path = "res://.godot/imported/Directional Coupler LeftUpIn.png-eb7882629c571c738f70a2197f821c3b.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_urwi1"]
-load_path = "res://.godot/imported/Directional Coupler LeftDown.png-6ab7c0013d97cc8195420659381aadc7.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jb3uj"]
-load_path = "res://.godot/imported/Directional Coupler RightUp.png-d4b59544048d1f9323d70072ab3b239e.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pfmld"]
-load_path = "res://.godot/imported/Directional Coupler RightDown.png-a39be397d94ee5b77d0e33e95d693105.ctex"
-
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_efdvx"]
 shader = SubResource("Shader_rx45y")
 shader_parameter/laserColor = Vector4(0.4, 0, 0, 1)
@@ -134,24 +128,27 @@ shader_parameter/lightOutFlow7 = null
 shader_parameter/lightInFlow8 = null
 shader_parameter/lightOutFlow8 = null
 shader_parameter/numAnimationColumns = 4.0
-shader_parameter/animation1 = SubResource("CompressedTexture2D_sqyxt")
-shader_parameter/animation2 = SubResource("CompressedTexture2D_urwi1")
-shader_parameter/animation3 = SubResource("CompressedTexture2D_jb3uj")
-shader_parameter/animation4 = SubResource("CompressedTexture2D_pfmld")
+shader_parameter/animation1 = ExtResource("2_nvvod")
+shader_parameter/animation2 = ExtResource("3_kf717")
+shader_parameter/animation3 = ExtResource("4_dg366")
+shader_parameter/animation4 = ExtResource("5_4ox23")
+shader_parameter/animation5 = ExtResource("6_rtarb")
+shader_parameter/animation6 = ExtResource("7_5gcww")
 
 [node name="MMI3x3" type="TextureRect"]
-custom_minimum_size = Vector2(122, 122)
+custom_minimum_size = Vector2(183, 183)
 layout_direction = 1
-offset_right = 122.0
-offset_bottom = 122.0
+offset_right = 183.0
+offset_bottom = 183.0
+expand_mode = 3
 stretch_mode = 2
 
 [node name="RotationArea" type="Node2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(61, 61)
+position = Vector2(92, 92)
 
 [node name="BackgroundImage" type="Sprite2D" parent="RotationArea"]
-position = Vector2(-61, -61)
+position = Vector2(-92, -92)
 scale = Vector2(2, 2)
 texture = ExtResource("1_lvii3")
 centered = false
@@ -160,7 +157,7 @@ region_rect = Rect2(11.5, 16, 41, 39)
 [node name="Overlay" type="Sprite2D" parent="RotationArea"]
 unique_name_in_owner = true
 material = SubResource("ShaderMaterial_efdvx")
-position = Vector2(-61, -61)
+position = Vector2(-91, -91)
 scale = Vector2(2, 2)
 texture = ExtResource("1_lvii3")
 centered = false

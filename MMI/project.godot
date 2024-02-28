@@ -12,7 +12,7 @@ config_version=5
 
 config/name="MMI3x3"
 run/main_scene="res://Scenes/Components/MMI3x3/MMI3x3.tscn"
-config/features=PackedStringArray("4.2", "C#", "Forward Plus")
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
