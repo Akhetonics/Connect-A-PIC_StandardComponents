@@ -1,12 +1,13 @@
-[gd_scene load_steps=10 format=3 uid="uid://b4ltp4nnviu3"]
+[gd_scene load_steps=11 format=3 uid="uid://b4ltp4nnviu3"]
 
 [ext_resource type="Texture2D" uid="uid://bg45l0703p3we" path="res://Scenes/Components/MMI3x3/MMI3x3.png" id="1_lvii3"]
-[ext_resource type="Texture2D" uid="uid://rcmsbv3cjero" path="res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay.png" id="2_nvvod"]
-[ext_resource type="Texture2D" uid="uid://dh23ldwyud587" path="res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay.png" id="3_kf717"]
-[ext_resource type="Texture2D" uid="uid://cgrrfqxmrvw1f" path="res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay.png" id="4_dg366"]
-[ext_resource type="Texture2D" uid="uid://cjuj4xyvfxtlt" path="res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay_Turned.png" id="5_4ox23"]
-[ext_resource type="Texture2D" uid="uid://bbqk0w6t68pcr" path="res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay_Turned.png" id="6_rtarb"]
-[ext_resource type="Texture2D" uid="uid://cy2odaby7j33w" path="res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay_Turned.png" id="7_5gcww"]
+[ext_resource type="Texture2D" uid="uid://dxespt66nyarj" path="res://Scenes/Components/MMI3x3/Overlays/L_up.png" id="2_ukogy"]
+[ext_resource type="Texture2D" uid="uid://evos6jotv3it" path="res://Scenes/Components/MMI3x3/Overlays/L_mid.png" id="3_yk82m"]
+[ext_resource type="Texture2D" uid="uid://caclq50exv664" path="res://Scenes/Components/MMI3x3/Overlays/L_down.png" id="4_vp3pf"]
+[ext_resource type="Texture2D" uid="uid://dhmn07s5ve1t1" path="res://Scenes/Components/MMI3x3/Overlays/MiddlePart.png" id="5_q3ygl"]
+[ext_resource type="Texture2D" uid="uid://bf50el2l8knxl" path="res://Scenes/Components/MMI3x3/Overlays/R_up.png" id="6_obi2w"]
+[ext_resource type="Texture2D" uid="uid://hmp1nvgxiv0h" path="res://Scenes/Components/MMI3x3/Overlays/R_mid.png" id="7_ahocm"]
+[ext_resource type="Texture2D" uid="uid://cljhb28gpst8" path="res://Scenes/Components/MMI3x3/Overlays/R_down.png" id="8_k3hbn"]
 
 [sub_resource type="Shader" id="Shader_rx45y"]
 code = "// Laser Farbe
@@ -31,6 +32,8 @@ uniform vec4 lightInFlow7;
 uniform vec4 lightOutFlow7;
 uniform vec4 lightInFlow8;
 uniform vec4 lightOutFlow8;
+uniform vec4 lightInFlow9;
+uniform vec4 lightOutFlow9;
 // ... so viele wie man lustig ist. Am Besten 16 (8 in, 8 out) oder sowas, damit man nur einen einzigen Shader braucht für alle
 
 uniform sampler2D animation1;
@@ -41,6 +44,7 @@ uniform sampler2D animation5;
 uniform sampler2D animation6;
 uniform sampler2D animation7;
 uniform sampler2D animation8;
+uniform sampler2D animation9;
 // ... die hälfte von oben, also 8 (in/out ist ja nur umgedreht in der Zeit)
 uniform float numAnimationColumns = 4.0;
 
@@ -83,6 +87,8 @@ void fragment(){
 	vec4 col_anim7out = getAnimationFrameColor(animation7,UV,-animationspeed, lightOutFlow7);
     vec4 col_anim8in  = getAnimationFrameColor(animation8,UV,animationspeed, lightInFlow8);
 	vec4 col_anim8out = getAnimationFrameColor(animation8,UV,-animationspeed, lightOutFlow8);
+	vec4 col_anim9in  = getAnimationFrameColor(animation9,UV,animationspeed, lightInFlow9);
+	vec4 col_anim9out = getAnimationFrameColor(animation9,UV,-animationspeed, lightOutFlow9);
     
   // Der rot Kanal = höhen, z.B.
   // Der blau Kanal = tiefen
@@ -95,6 +101,7 @@ void fragment(){
 		subtractBlueFromRedLight( col_anim6in, lightInFlow6.x) +
 		subtractBlueFromRedLight( col_anim7in, lightInFlow7.x) +
 		subtractBlueFromRedLight( col_anim8in, lightInFlow8.x) +
+		subtractBlueFromRedLight( col_anim9in, lightInFlow9.x) +
 		subtractBlueFromRedLight( col_anim1out, lightOutFlow1.x) +
 		subtractBlueFromRedLight( col_anim2out, lightOutFlow2.x) +
 		subtractBlueFromRedLight( col_anim3out, lightOutFlow3.x) +
@@ -102,7 +109,8 @@ void fragment(){
 		subtractBlueFromRedLight( col_anim5out, lightOutFlow5.x) +
 		subtractBlueFromRedLight( col_anim6out, lightOutFlow6.x) +
 		subtractBlueFromRedLight( col_anim7out, lightOutFlow7.x) +
-		subtractBlueFromRedLight( col_anim8out, lightOutFlow8.x);
+		subtractBlueFromRedLight( col_anim8out, lightOutFlow8.x) +
+		subtractBlueFromRedLight( col_anim9out, lightOutFlow9.x);
 	
 
   COLOR = laserColor * 2.5 * abs(intensity);
@@ -113,27 +121,32 @@ shader = SubResource("Shader_rx45y")
 shader_parameter/laserColor = Vector4(0.4, 0, 0, 1)
 shader_parameter/lightInFlow1 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow1 = Vector4(0, 0, 0, 0)
-shader_parameter/lightInFlow2 = Vector4(0, 0, 0, 0)
+shader_parameter/lightInFlow2 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow2 = Vector4(0, 0, 0, 0)
-shader_parameter/lightInFlow3 = Vector4(-0.438, -0.24, 0, 0)
+shader_parameter/lightInFlow3 = Vector4(1, -0.24, 0, 0)
 shader_parameter/lightOutFlow3 = Vector4(0, 0, 0, 0)
-shader_parameter/lightInFlow4 = Vector4(-0.438, -0.24, 0, 0)
+shader_parameter/lightInFlow4 = Vector4(1, -0.24, 0, 0)
 shader_parameter/lightOutFlow4 = Vector4(0, 0, 0, 0)
-shader_parameter/lightInFlow5 = null
+shader_parameter/lightInFlow5 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow5 = null
-shader_parameter/lightInFlow6 = null
+shader_parameter/lightInFlow6 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow6 = null
-shader_parameter/lightInFlow7 = null
+shader_parameter/lightInFlow7 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow7 = null
-shader_parameter/lightInFlow8 = null
+shader_parameter/lightInFlow8 = Vector4(1, 0, 0, 0)
 shader_parameter/lightOutFlow8 = null
+shader_parameter/lightInFlow9 = Vector4(1, 0, 0, 0)
+shader_parameter/lightOutFlow9 = null
 shader_parameter/numAnimationColumns = 4.0
-shader_parameter/animation1 = ExtResource("2_nvvod")
-shader_parameter/animation2 = ExtResource("3_kf717")
-shader_parameter/animation3 = ExtResource("4_dg366")
-shader_parameter/animation4 = ExtResource("5_4ox23")
-shader_parameter/animation5 = ExtResource("6_rtarb")
-shader_parameter/animation6 = ExtResource("7_5gcww")
+shader_parameter/animation1 = ExtResource("2_ukogy")
+shader_parameter/animation2 = ExtResource("3_yk82m")
+shader_parameter/animation3 = ExtResource("4_vp3pf")
+shader_parameter/animation4 = ExtResource("5_q3ygl")
+shader_parameter/animation5 = ExtResource("5_q3ygl")
+shader_parameter/animation6 = ExtResource("5_q3ygl")
+shader_parameter/animation7 = ExtResource("6_obi2w")
+shader_parameter/animation8 = ExtResource("7_ahocm")
+shader_parameter/animation9 = ExtResource("8_k3hbn")
 
 [node name="MMI3x3" type="TextureRect"]
 custom_minimum_size = Vector2(183, 183)

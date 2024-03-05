@@ -64,55 +64,55 @@
 		"fromPinNr": 0,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 1.047197551196597746
 		},
 		
 		
@@ -120,55 +120,55 @@
 		"fromPinNr": 1,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 0.124
+		"phase" : 1.047197551196597746
 		}
  	 ]
 	},
@@ -179,55 +179,55 @@
 		"fromPinNr": 0,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 1.047197551196597746
 		},
 		
 		
@@ -235,55 +235,55 @@
 		"fromPinNr": 1,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 2.3
+		"phase" : 1.047197551196597746
 		}
  	 ]
 	},
@@ -294,55 +294,55 @@
 		"fromPinNr": 0,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 0,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 2,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 1,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 3,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 4,
 		"toPinNr": 5,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 1.047197551196597746
 		},
 		
 		
@@ -350,98 +350,118 @@
 		"fromPinNr": 1,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 1,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 3.141592653589793
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 1.047197551196597746
 		},
 		{
 		"fromPinNr": 3,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 0,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 2,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 0
 		},
 		{
 		"fromPinNr": 5,
 		"toPinNr": 4,
 		"magnitude" : 0.577350269189625,
-		"phase" : 1.8
+		"phase" : 1.047197551196597746
 		}
  	 ]
 	}
 ],
   "overlays": [
 	{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/L_up.png",
 	  "rectSide": 2,
-	  "flowDirection" : "In",
+	  "flowDirection" : "Both",
 	  "tileOffsetX": 0,
 	  "tileOffsetY": 0
 	},{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/L_mid.png",
 	  "rectSide": 2,
-	  "flowDirection" : "In",
+	  "flowDirection" : "Both",
 	  "tileOffsetX": 0,
 	  "tileOffsetY": 1
 	},{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/L_down.png",
 	  "rectSide": 2,
-	  "flowDirection" : "In",
+	  "flowDirection" : "Both",
 	  "tileOffsetX": 0,
 	  "tileOffsetY": 2
 	},
 	
 	{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_C_Overlay_Turned.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MiddlePart.png",
+	  "rectSide": 2,
+	  "flowDirection" : "Both",
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 0
+	},{
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MiddlePart.png",
+	  "rectSide": 2,
+	  "flowDirection" : "Both",
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 1
+	},{
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MiddlePart.png",
+	  "rectSide": 2,
+	  "flowDirection" : "Both",
+	  "tileOffsetX": 0,
+	  "tileOffsetY": 2
+	},
+	{
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/R_up.png",
 	  "rectSide": 0,
-	  "flowDirection" : "In",
+	  "flowDirection" : "Both",
 	  "tileOffsetX": 2,
 	  "tileOffsetY": 0
 	},{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_A_Overlay_Turned.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/R_mid.png",
 	  "rectSide": 0,
-	  "flowDirection" : "In",
+	  "flowDirection" : "Both",
 	  "tileOffsetX": 2,
 	  "tileOffsetY": 1
 	},{
-	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/MMI_B_Overlay_Turned.png",
+	  "overlayAnimTexturePath": "res://Scenes/Components/MMI3x3/Overlays/R_down.png",
 	  "rectSide": 0,
-	  "flowDirection" : "In",
+	  "flowDirection" : "Both",
 	  "tileOffsetX": 2,
 	  "tileOffsetY": 2
 	}
+	
   ]
 }
