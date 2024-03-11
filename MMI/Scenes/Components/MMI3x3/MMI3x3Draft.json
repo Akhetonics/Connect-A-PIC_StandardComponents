@@ -60,347 +60,341 @@
 	{
 	"waveLength" : 1550,
 	"connections": [
-		{
-		"fromPinNr": 0,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 0,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 0,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		
-		
-		{
-		"fromPinNr": 1,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 1,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 1,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		}
- 	 ]
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 4,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 3,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 2,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 5,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 0,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 1,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 4,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 3,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 2,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 5,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 0,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 1,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 4,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 3,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 2,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 5,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  }
+		]
 	},
 	{
 	"waveLength" : 1310,
 	"connections": [
-		{
-		"fromPinNr": 0,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 0,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 0,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		
-		
-		{
-		"fromPinNr": 1,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 1,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 1,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		}
- 	 ]
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 4,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 3,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 2,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 5,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 0,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 1,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 4,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 3,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 2,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 5,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 0,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 1,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 4,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 3,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 2,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 5,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  }
+		]
 	},
 	{
 	"waveLength" : 980,
 	"connections": [
-		{
-		"fromPinNr": 0,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 0,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 0,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 2,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 1,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 3,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 4,
-		"toPinNr": 5,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		
-		
-		{
-		"fromPinNr": 1,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 1,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 1,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 3.141592653589793
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		},
-		{
-		"fromPinNr": 3,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 0,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 2,
-		"magnitude" : 0.577350269189625,
-		"phase" : 0
-		},
-		{
-		"fromPinNr": 5,
-		"toPinNr": 4,
-		"magnitude" : 0.577350269189625,
-		"phase" : 1.047197551196597746
-		}
- 	 ]
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 1,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 4,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 3,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 2,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 0,
+			"toPinNr": 5,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 5,
+			"toPinNr": 0,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 1,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 4,
+			"phase": 2.879793265790644,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 3,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 2,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 2,
+			"toPinNr": 5,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 3,
+			"toPinNr": 0,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 1,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 4,
+			"phase": -0.2617993877991493,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 3,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 2,
+			"phase": -0.2617993877991492,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 4,
+			"toPinNr": 5,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  },
+		  {
+			"fromPinNr": 1,
+			"toPinNr": 0,
+			"phase": 0.7853981633974483,
+			"magnitude": 0.5773502691896258
+		  }
+		]
 	}
 ],
   "overlays": [
